@@ -3,56 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     height: 100vh;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    margin-bottom: 16px;
-    font-weight: 900;
-    font-size: 40px;
+    font-size: 36px;
+    margin-bottom: 12px;
 }
 
 .container {
-    font-size: 32px;
     display: flex;
     flex-direction: column;
+    gap: 12px;
+    font-size: 32px;
     justify-content: center;
-    gap: 7px;
     align-items: center;
-    background-color: burlywood;
-    padding: 4rem 8rem;
+    border: 2px solid black;
+    padding: 16px 36px;
 }
 
-.ageInput {
-    border: none;
-    padding: 1rem;
+.numberInput {
+    text-align: center;
+    padding: 8px;
     font-size: 18px;
-    border-radius: 2px;
 }
 
 .btn {
-    padding: 5px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 4px 24px;
+    cursor: pointer;
 }
 
-.btn:hover {
-    background-color: bisque;
-    border: 2px solid burlywood;
-    transition: background-color 0.3s ease, border 0.3s ease;
-    cursor: pointer;
-    transform: scale(1.05);
-}
-.output {
-    margin-top: 18px;
-    font-size: 18px;
+.numberChecker {
+    font-size: 16px;
+    font-style: italic;
 }
