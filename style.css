@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 16px 36px;
+}
+
+.numberInput {
+    text-align: center;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.btn {
+    padding: 4px 24px;
+    cursor: pointer;
+}
+
+.numberChecker {
+    font-size: 16px;
+    font-style: italic;
+}
