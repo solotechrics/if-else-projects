@@ -1,11 +1,12 @@
 const ageInput = document.querySelector(".ageInput");
 const output = document.querySelector(".output");
 const btn = document.querySelector(".btn");
+const emptyString = "adfasdf";
 
 // Age Validation
 const ageValidation = 18;
 
-btn.addEventListener("click", checkAge());
+btn.addEventListener("click", checkAge);
 function checkAge(){
     const age = Number(ageInput.value);
 
@@ -14,6 +15,6 @@ function checkAge(){
     } else if (age < ageValidation) {
         output.textContent = `${age}: ❌ Sorry you are not elgible to drive`;
     } else {
-        output.textContent = "Invalid input";
+        output.textContent = `${emptyString}: Invalid Input`;
     }
 }
