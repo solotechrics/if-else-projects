@@ -42,13 +42,15 @@ h1 {
     font-size: 16px;
     border: none;
     border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn:hover {
     background-color: bisque;
     border: 2px solid burlywood;
-    transition: 1s;
+    transition: background-color 0.3s ease, border 0.3s ease;
     cursor: pointer;
+    transform: scale(1.05);
 }
 .output {
     margin-top: 18px;
