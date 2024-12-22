@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odd or Even Checker</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Basic Calculator</h1>
+    <div class="container">
+        <div class="numberInput">
+            <input type="number" placeholder="Enter Number" class="input1" />
+            <select name="operators" id="operators">
+              <option value="addition">+</option>
+              <option value="subtraction">-</option>
+              <option value="multiplication">*</option>
+              <option value="division">/</option>
+            </select>
+            <input type="number" placeholder="Enter Number" class="input2" />
+            <button id="calBtn">Calculate</button>
+            <p id="result">Resuslt:</p>
+          </div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
