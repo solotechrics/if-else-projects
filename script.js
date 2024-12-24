@@ -7,6 +7,19 @@ submit.addEventListener("click", gradeCalculator);
 function gradeCalculator() {
   const input = parseFloat(userInputs.value);
 
+  // Validate input
+  if(isNaN(input)){
+    outputs.textContent = "please enter a valid numer.";
+    return;
+  }
+
+  if (input < 0 || input > 100){
+    outputs.textContent = "please enter a score between o and 100";
+    return;
+  }
+
+  // Grade calculation
+
   if (input >= 90) {
     outputs.textContent = `${input}: Your Grade is A`;
   } else if (input >= 80) {
