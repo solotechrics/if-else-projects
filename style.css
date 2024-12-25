@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boxContainer {
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.gradeSubmit {
+    padding: 6px 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
