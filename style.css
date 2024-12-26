@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+.gradeA {color: green;}
+.gradeB {color: blue;}
+.gradeC {color: yellow;}
+.gradeD {color: orange;}
+.gradeF {color: red;}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +20,8 @@ body {
 .boxContainer {
     border: 2px solid black;
     padding: 16px;
+    background-color: #8e8989;
+    border-radius: 6px;
 }
 
 .gradeSubmit {
@@ -28,4 +36,13 @@ body {
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+input {
+    text-align: center;
+}
+
+.output {
+    font-size: 24px;
+    font-weight: 900;
 }
